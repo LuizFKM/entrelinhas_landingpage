@@ -1,0 +1,76 @@
+body {
+    font-family: 'Assistant', sans-serif;
+}
+
+.section-title {
+    font-family: 'source code pro', sans-serif;
+    font-weight: 400;
+}
+
+.navbar {
+    background-color: rgb(69, 207, 150);
+}
+
+
+#cabecalho .nav .nav-link.active,
+#destaques .nav .nav-link.active,
+#fale-conosco button{
+    background-color:rgb(43, 2, 77);
+    color: rgb(252, 149, 24);
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover {
+    color: rgb(31, 106, 150)
+}
+
+#sobre, #destaques {
+    background-color: rgb(250, 223, 164);;
+}
+
+.text-colored {
+    color: rgb(31, 106, 150)
+}
+
+#eventos,
+#fale-conosco {
+    background-color: #ebe8e8;
+}
+
+.nav-destaques .nav-link:hover {
+    color: rgb(50, 0, 90);
+}
+
+.carousel-item img {
+    width: 100%;
+    max-height: 800px;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+    justify-items: center;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+.text-icons {
+    color: rgb(50, 0, 90);
+}
+
+@media (max-width: 767px) {
+    
+    .carousel-item img {
+        height: 280px;
+    }
+
+    a.nav-link {
+        display: flex;
+        justify-content: center;
+    }
+    
+
+}
